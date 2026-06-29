@@ -1,0 +1,21 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local ML models and logs
+saved_model/
+results/
+logs/
+
+# Intermediate cleaned data
+train_clean.csv
+test_clean.csv
+
+# Hugging Face caches (in case they end up local)
+.cache/
+huggingface/
+
+# IDE files
+.vscode/
+.idea/

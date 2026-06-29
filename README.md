@@ -1,4 +1,4 @@
-# Advanced DBERT Sentiment & Summary Analyzer
+# Advanced BERT Sentiment & Summary Analyzer
 
 This project is an advanced sentiment classifier and product reviews summarizer built with PyTorch, Hugging Face Transformers, and local generative models. It runs fully local and offline on your GPU.
 

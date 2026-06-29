@@ -1,6 +1,16 @@
 # Advanced BERT Sentiment & Summary Analyzer
 
 This project is an advanced sentiment classifier and product reviews summarizer built with PyTorch, Hugging Face Transformers, and local generative models. It runs fully local and offline on your GPU.
+# Datasets
+flipkart_product.csv 
+https://www.kaggle.com/datasets/mansithummar67/flipkart-product-review-dataset
+
+IMDB Dataset 
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+Dataset-SA.csv
+https://www.kaggle.com/datasets/niraliivaghani/flipkart-product-customer-reviews-dataset
+
 
 ## Core Features
 1. **Fine-Grained Sentiment Classifier (5 Levels):** Fine-tuned `distilbert-base-uncased` to classify reviews into:

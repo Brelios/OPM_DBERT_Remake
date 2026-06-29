@@ -77,3 +77,79 @@ python predictions.py --batch_file test_clean.csv --column Review
 # Run sentiment and generate an offline summary + pros/cons list
 python predictions.py --batch_file test_clean.csv --column Review --summarize
 ```
+# How to Run
+## Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v18 or later recommended)
+- npm
+- Python 3.10+
+- pip
+
+---
+# Frontend Setup
+
+Navigate to the frontend directory.
+
+```bash
+cd frontend
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Start the development server.
+
+```bash
+npm run dev
+```
+
+The frontend will be available at
+
+```
+http://localhost:5173
+```
+
+---
+
+# Backend Setup
+
+Navigate to the backend directory.
+
+```bash
+cd backend
+```
+
+(Optional) Create a virtual environment.
+
+### Windows
+
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+### Linux/macOS
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+Install the required packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the backend server.
+
+```bash
+python main.py
+```
